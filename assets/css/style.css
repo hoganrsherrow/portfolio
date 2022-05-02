@@ -74,3 +74,18 @@ header nav ul li a {
     padding-right: 10px;
     color: var(--primary-color);
 }
+/* Hero Styles End */
+/* About Me Styles Start */
+#about article {
+    background-color: var(--primary-color);
+}
+#about article h2 {
+    text-align: center;
+    color: var(--secondary-color);
+}
+#about article p {
+    text-align: justify;
+    padding: 15px 30px;
+    color: var(--secondary-color);
+}
+/* About Me Styles End */
