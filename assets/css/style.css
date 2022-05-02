@@ -16,6 +16,10 @@
     display: flex;
     flex-wrap: wrap;
 }
+.img-title {
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+}
 /* Utility Classes End */
 /* Header Styles Start */
 header {
@@ -89,3 +93,51 @@ header nav ul li a {
     color: var(--secondary-color);
 }
 /* About Me Styles End */
+/* My Work Styles Start */
+#work {
+    background-color: var(--light-gray);
+    padding: 15px;
+}
+#work h2 {
+    font-size: 38px;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 20px;    
+}
+.work-samples a {
+    margin: 15px auto;
+}
+.work-samples div {
+    margin: 15px auto;
+}
+.run-buddy {
+    width: 280px;
+    height: 280px;
+    background-image: url(../images/run-buddy-sm.png);
+    background-size: cover;
+}
+.uber-clone {
+    width: 225px;
+    height: 225px;
+    background-image: url(../images/uber.png);
+    background-size: cover;
+}
+.tinder-clone {
+    width: 225px;
+    height: 225px;
+    background-image: url(../images/tinder.png);
+    background-size: cover;
+}
+.calculator {
+    width: 225px;
+    height: 225px;
+    background-image: url(../images/calculator.png);
+    background-size: cover;
+}
+.password-generator {
+    width: 225px;
+    height: 225px;
+    background-image: url(../images/password.png);
+    background-size: cover;
+}
+/* My Work Styles End */
