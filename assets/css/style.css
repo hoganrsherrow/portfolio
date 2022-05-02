@@ -4,6 +4,7 @@
     --tertiary-color: #f4d35e;
     --fourth-color: #e4c1f9;
     --fifth-color: #f78764;
+    --light-gray: #e9e9e9;
 }
 * {
     box-sizing: border-box;
@@ -44,4 +45,32 @@ header nav ul li a {
     font-size: 38px;
     color: var(--primary-color);
 }
-/*Header Styles end */
+/* Header Styles end */
+/* Hero Styles Start */
+.hero {
+    background-color: var(--light-gray);
+    padding: 15px 5px 15px 5px;
+}
+.hero .flex-container {
+    justify-content: space-between;
+}
+.hero .flex-container img {
+    border-radius: 50%;
+    padding-left: 15px;
+    flex: 1;
+}
+.hero-content {
+    flex: 2;
+}
+.hero-content h2 {
+    color: var(--tertiary-color);
+    font-size: 38px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+.hero-content p {
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 10px;
+    color: var(--primary-color);
+}
