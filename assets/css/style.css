@@ -111,33 +111,48 @@ header nav ul li a {
     margin: 15px auto;
 }
 .run-buddy {
-    width: 280px;
-    height: 280px;
+    width: 615px;
+    height: 320px;
     background-image: url(../images/run-buddy-sm.png);
     background-size: cover;
 }
+.run-buddy:hover {
+    opacity: 0.5;
+}
 .uber-clone {
-    width: 225px;
-    height: 225px;
+    width: 500px;
+    height: 275px;
     background-image: url(../images/uber.png);
     background-size: cover;
 }
+.uber-clone:hover {
+    opacity: 0.5;
+}
 .tinder-clone {
-    width: 225px;
-    height: 225px;
+    width: 500px;
+    height: 275px;
     background-image: url(../images/tinder.png);
     background-size: cover;
 }
+.tinder-clone:hover {
+    opacity: 0.5;
+}
 .calculator {
-    width: 225px;
-    height: 225px;
+    width: 500px;
+    height: 275px;
     background-image: url(../images/calculator.png);
     background-size: cover;
 }
+.calculator:hover {
+    opacity: 0.5;
+}
 .password-generator {
-    width: 225px;
-    height: 225px;
+    width: 500px;
+    height: 275px;
     background-image: url(../images/password.png);
     background-size: cover;
+}
+.password-generator:hover {
+    opacity: 0.5;
 }
 /* My Work Styles End */
