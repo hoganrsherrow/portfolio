@@ -156,3 +156,29 @@ header nav ul li a {
     opacity: 0.5;
 }
 /* My Work Styles End */
+/* Footer Styles Start */
+footer {
+    background-color: var(--light-gray);
+    text-align: center;
+}
+footer p {
+    color: var(--primary-color);
+}
+footer p a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+footer p a:hover {
+    font-style: italic;
+    font-size: 1.2em;
+}
+footer p a:active {
+    color: var(--tertiary-color);
+    font-style: normal
+}
+/* Footer Styles End */
+
+/* To Do: 
+   Find common breakpoints
+   Make site respond to desktop changes
+   Find more stuff to fix */
