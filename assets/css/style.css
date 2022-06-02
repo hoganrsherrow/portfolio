@@ -23,6 +23,14 @@ body {
     color: var(--tertiary-color);
     background-color: var(--secondary-color);
 }
+.work-img {
+    width: 500px;
+    height: 275px;
+    background-size: cover;
+}
+.work-img:hover {
+    opacity: 0.5;
+}
 /* Utility Classes End */
 /* Header Styles Start */
 header {
@@ -123,40 +131,16 @@ header nav ul li a {
     opacity: 0.5;
 }
 .uber-clone {
-    width: 500px;
-    height: 275px;
     background-image: url(../images/uber.png);
-    background-size: cover;
-}
-.uber-clone:hover {
-    opacity: 0.5;
 }
 .tinder-clone {
-    width: 500px;
-    height: 275px;
     background-image: url(../images/tinder.png);
-    background-size: cover;
-}
-.tinder-clone:hover {
-    opacity: 0.5;
 }
 .calculator {
-    width: 500px;
-    height: 275px;
     background-image: url(../images/calculator.png);
-    background-size: cover;
-}
-.calculator:hover {
-    opacity: 0.5;
 }
 .password-generator {
-    width: 500px;
-    height: 275px;
     background-image: url(../images/password.png);
-    background-size: cover;
-}
-.password-generator:hover {
-    opacity: 0.5;
 }
 /* My Work Styles End */
 /* Contact Styles Start */
@@ -181,6 +165,7 @@ header nav ul li a {
     margin: 15px 100px;
     background-color: var(--secondary-color);
     color: var(--tertiary-color);
+    font-size: 24px;
 }
 .contact-form form {
     justify-content: center;
@@ -221,6 +206,23 @@ footer p a:active {
 }
 /* Footer Styles End */
 
+/* Media Query for Tablets and bigger */
+@media screen and (min-width: 575px) {
+    .work-samples{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .work-lg {
+        flex: 100%;
+    }
+    .work-sm {
+        flex: 1 50%;
+    }
+    .work-img {
+        width: 400px;
+    }
+}
 /* To Do: 
    Find common breakpoints
    Make site respond to desktop changes
