@@ -23,6 +23,14 @@ body {
     color: var(--tertiary-color);
     background-color: var(--secondary-color);
 }
+.work-img-lg {
+    width: 615px;
+    height: 320px;
+    background-size: cover;
+}
+.work-img-lg:hover {
+    opacity: 0.5;
+}
 .work-img {
     width: 500px;
     height: 275px;
@@ -121,14 +129,11 @@ header nav ul li a {
 .work-samples div {
     margin: 15px auto;
 }
-.run-buddy {
-    width: 615px;
-    height: 320px;
-    background-image: url(../images/run-buddy-sm.png);
-    background-size: cover;
+.aerospace {
+    background-image: url(../images/screencapture-carterwsheppard-github-io-space-app-2022-06-05-19_31_20.png);
 }
-.run-buddy:hover {
-    opacity: 0.5;
+.run-buddy {
+    background-image: url(../images/run-buddy-sm.png);
 }
 .uber-clone {
     background-image: url(../images/uber.png);
