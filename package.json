@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "## This Portfolio was made using:   * HTML  * CSS --- ![Image](./assets/images/screencapture-hoganrsherrow-github-io-portfolio-2022-06-02-00_10_52.png)",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoganrsherrow/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoganrsherrow/portfolio/issues"
+  },
+  "homepage": "https://github.com/hoganrsherrow/portfolio#readme"
+}
