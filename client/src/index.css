@@ -1,13 +1,117 @@
-body {
+/* === Variables === */
+:root {
+  --primary-color: #323232;
+  --secondary-color: #14FFEC;
+  --tertiary-color: #212121;
+  --quarternary-color: #087A91;
+}
+
+/* === Utility Classes === */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.logo {
+  background-color: var(--secondary-color);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 8%;
+  margin: 0.75rem;
+}
+
+/* === Header Style === */
+header {
+  margin-bottom: 2rem;
+}
+/* === Body Style === */
+body {
+  background-color: var(--primary-color);
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+hr {
+  margin-bottom: 2rem;
+}
+section p {
+  margin: 0 5rem;
+  text-align: justify;
+}
+/* === Headings Style === */
+h1 {
+  color: var(--secondary-color);
+  font-size: 4rem;
+  font-weight: normal;
+  margin: 0;
+}
+h2 {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0;
+}
+h3 {
+  font-size: 2.5rem;
+  color: var(--quarternary-color)
+}
+h4 {
+  font-size: 2rem;
+  color: var(--quarternary-color);
+}
 
+/* === Img Style === */
+img {
+  width: 20rem;
+  height: 12rem;
+  padding: 0.333em;
+  border: 1px solid white;
+  border-radius: 8%;
+}
+
+/* === Project Card Style === */
+.project-card {
+  padding: 1rem;
+  background-color: var(--tertiary-color);
+  border-radius: 8%;
+  margin: 0.5rem;
+}
+.project-card h5 {
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+/* === Footer Style === */
+footer {
+  margin-top: 2rem;
+  color: var(--secondary-color);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* === Media Queries === */
+@media screen and (max-width: 376px) {
+  section p {
+    text-align: center;
+  }
 }
